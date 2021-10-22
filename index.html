@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+    Author: Ryan Corrigan
+    Class:  Web and Distributed Programming
+    Project: Map Mania v1
+    Description: This is my version of Map Mania
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Map Mania V2!</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="index.js"></script>
+    <script src="favorite_places.json"></script>
+  </head>
+  
+  <body onload="initApplication()">
+    <h1>Map Mania!</h1>
+    <a href="getting_started.html">Getting Started Page</a><br>
+
+    <div id="starter">
+      <p>This is a game to see if you can guess my 5 favorite locations!</p>
+      <p>The first location is my least favorite and the last location is my very favorite!</p>
+      <p>As you move around the map there will be hints given to you to help you with your game!</p>
+      <p>These instructions disappear immediately when you click so if you need to see the instructions again you can click the link above!</p>
+    </div>
+
+    <button onclick="win()">Click to win!</button>
+
+    <div id ="score">
+      <h2>Score</h2>
+      <input id="score_show" type="text" name="score_show" disabled="disabled" size="2">
+    </div>
+
+    <div id ="hint">
+      <h2>Hint</h2>
+      <input id="hint_show" type="text" name="hint_show" disabled="disabled" size = "55" ><br>
+    </div>
+
+
+    <div id="map"></div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFmCPuZexAgKohi-3YjMOjjBViy6EEs9A&callback=initMap&v=weekly"
+      async>
+    </script>
+
+
+  </body>
+</html>
