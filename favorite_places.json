@@ -1,8 +1,8 @@
 {"favorite_places":[
-    {"name":"Chicago", "coordinates":{"lat":41.837546,"lng":-88.0146821}},
-    {"name":"Chicago", "coordinates":{"lat":41.837546,"lng":-88.0146821}},
-    {"name":"Chicago", "coordinates":{"lat":41.837546,"lng":-88.0146821}},
-    {"name":"Chicago", "coordinates":{"lat":41.837546,"lng":-88.0146821}},
-    {"name":"Chicago", "coordinates":{"lat":41.837546,"lng":-88.0146821}}
+  {"name":"Chicago", "coordinates":{"lat":41.878113,"lng":-87.629799}},
+  {"name":"Tokyo", "coordinates":{"lat":35.689487,"lng":139.691711}},
+  {"name":"Estes Park", "coordinates":{"lat":40.376129,"lng":-105.523651}},
+  {"name":"Stockholm", "coordinates":{"lat":59.3251172,"lng":18.0710935}},
+  {"name":"Rockford", "coordinates":{"lat":42.266800,"lng":-89.088379}}
 ]}
 
